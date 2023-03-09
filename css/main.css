@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: #f000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .text {
+  width: 50%;
+}
+header .logo {
+  width: 50%;
+}
+.header-nav {
+  background-color: #135175;
+}
+header #hero {
+  color: #f8ad45;
+}
+.nav-item #hom {
+  color: #f8ad45;
+}
+
+.navbar .container-fluid .nav-item .nav-link {
+  color: #fff;
+}
+
+.text .tanta h1 {
+  color: #f8ad45;
+}
+.text .tanta span {
+  color: #fff;
+}
+.acadmy {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text .tanta p {
+  font-size: 20px;
+  color: #ffff;
+}
+
+.header-nav {
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../images/opacity.jpg") fixed center center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 250px) and (max-width: 1200px) {
+  .acadmy {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  #us-form {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  html {
+    font-size: 50%;
+  }
+  #us-form {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .acadmy .logo img {
+    width: 40vw;
+  }
+  .acadmy .text .tanta p {
+    width: 100%;
+    text-align: center;
+  }
+  #contact-img {
+    width: 100%;
+    height: 200px;
+  }
+  #us-form {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .contact-img {
+    display: none;
+  }
+  .jumb-catego {
+    flex-direction: column;
+    width: 100%;
+    background-color: #f8ad45;
+  }
+}
+@media (max-width: 365px) {
+  .acadmy .logo img {
+    width: 40vw;
+  }
+  .acadmy .text .tanta p {
+    width: 100%;
+    text-align: center;
+  }
+  #contact-img {
+    width: 100%;
+    height: 200px;
+  }
+  #us-form {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .contact-img {
+    display: none;
+  }
+  .jumb-catego {
+    flex-direction: column;
+    width: 100%;
+    background-color: #f8ad45;
+  }
+}
+/*  */
+/*  */
+.jumbotron {
+  padding: 20px;
+}
+.jumbotron .d-flex input {
+  border: 1px solid #135175;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#btn-g {
+  border: 1px solid #135175;
+}
+
+.card .card-body {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  outline: none;
+}
+.card .card-body a {
+  background-color: #135175;
+  color: #fff;
+}
+.card .card-body h5 {
+  text-align: center;
+  color: #f8ad45;
+  font-weight: bold;
+}
+.text-center {
+  color: #f8ad45;
+  font-size: 40px;
+}
+
+.text-center p {
+  color: #333;
+  font-size: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+#learn {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+#call-img {
+  padding: 15px;
+}
+
+#call-t {
+  font-weight: bolder;
+  font-size: 40px;
+}
+#call {
+  padding: 10px;
+  margin: 5px;
+}
+#call h5 {
+  color: #f8ad45;
+  font-weight: bolder;
+}
+
+#call p {
+  font-size: 20px;
+  color: #333;
+}
+
+#sub {
+  margin: 20px;
+}
+
+.contact-form {
+  background-color: red;
+}
+
+.footer {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #135175;
+}
+.footer span {
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+#sub-c {
+  padding: 0 10px;
+  margin: 0 10px;
+  background-color: #f8ad45;
+  color: #fff;
+}
+@media (min-width: 255px) and (max-width: 512px) {
+  #cat {
+    display: none;
+  }
+  .jumbotron {
+    display: none;
+  }
+
+  #cat {
+    display: none;
+  }
+  #x {
+    display: none;
+  }
+  .list-group {
+    display: none;
+  }
+  .navbar .nav-item {
+    display: none;
+  }
+  .acadmy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .acadmy .tanta h1 {
+    font-size: 12px;
+  }
+  .acadmy .tanta p {
+    font-size: 12px;
+  }
+  .acadmy img {
+    width: 100px;
+  }
+  #hero {
+    font-size: 9px;
+    align-items: center;
+    /* display: none; */
+  }
+}
+
+div {
+  box-shadow: none;
+}
